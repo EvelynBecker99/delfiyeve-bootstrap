@@ -1,0 +1,41 @@
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #fa9eff 5%, #e3a6e3 100%);
+	background-color:#fa9eff;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#0d0f07;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e3a6e3 5%, #fa9eff 100%);
+	background-color:#e3a6e3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+body{
+    background-color: #e3a6e3;
+}
+#listanav li{
+    display: inline-block;
+}
+.calesita{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+	
+}
+.piepagina{
+    background-color: aliceblue;
+    text-align: center;
+	margin-top: 30px;
+}
